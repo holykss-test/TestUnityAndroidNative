@@ -1,0 +1,5 @@
+<target name="jar" depends="debug">
+    <jar
+        destfile="bin/TestPlugin.jar"
+        basedir="bin/classes" />
+</target>
